@@ -1,0 +1,11 @@
+/target/
+/.idea/
+*.iml
+rebel.xml
+# Project exclude paths
+/jeecg-boot-base-api/jeecg-system-local-api/target/
+/jeecg-boot-base-common/target/
+/jeecg-boot-module-demo/target/
+/jeecg-boot-module-system/target/
+/jeecg-cloud-module/jeecg-cloud-gateway/${project.build.directory}/classes/
+/jeecg-cloud-module/jeecg-cloud-gateway/target/
