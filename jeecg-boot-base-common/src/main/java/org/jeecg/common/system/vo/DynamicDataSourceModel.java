@@ -12,6 +12,8 @@ public class DynamicDataSourceModel {
 
     public DynamicDataSourceModel(Object dbSource) {
         if (dbSource != null) {
+
+
             BeanUtils.copyProperties(dbSource, this);
         }
     }
